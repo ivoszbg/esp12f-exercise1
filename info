@@ -1,0 +1,274 @@
+{
+  "uuid": "eadcf7e790a4c51fd13707a54e6bfcb9",
+  "path": "Offline/ESP12F-exercise",
+  "name": "ESP12F-exercise",
+  "content": "",
+  "created_at": "2023-12-26 10:34:50",
+  "updated_at": "2023-12-27 08:58:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ac02891f4504a466b7019ac2fc55cc3f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cdee9e12a64d4cd8a18918262fbe094f": 1,
+        "06253f45c44a47b4accdd3b8978262e2": 1,
+        "21920ebb058343cba076c374cffdf3e4": 4,
+        "757042c450ed45ea925538607d68a281": 4,
+        "ff65dbdbd551416b9424cb16615f0385": 3,
+        "8f3a45610e5742c3b7bdfa7b83477dd3": 2,
+        "908ced202529416bac1203a9b300d842": 1,
+        "cb53934cbffc410196dc5aa9c22635f7": 1,
+        "f4d8e180987d481b8a97571048448f79": 1,
+        "a358fb6afb9046acb759860026bccac9": 1,
+        "7d57fdf90d1240b48f1baac3828ebcc1": 1,
+        "5731e1131f304450b457050d1cd350e8": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "TEMP-HUM-SENSOR-DHT22",
+          1,
+          "TEMP-HUM-SENSOR-DHT22",
+          "1",
+          {
+            "Contributor": "jboutin",
+            "spiceSymbolName": "TEMP-HUM-SENSOR-DHT22",
+            "Manufacturer Part": "",
+            "puuid": "8d24de341288477b976dd29e869002d3",
+            "uuid": "06253f45c44a47b4accdd3b8978262e2"
+          }
+        ],
+        [
+          "100nF",
+          3,
+          "C0603",
+          "C1,C4,C5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C108079",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "CC0603KRX7R7BB104",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CC0603KRX7R7BB104",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "ff65dbdbd551416b9424cb16615f0385"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C1206",
+          "C2,C3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2858005",
+            "Manufacturer": "FH(风华)",
+            "Manufacturer Part": "1206X226M250NT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1206X226M250NT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "8f3a45610e5742c3b7bdfa7b83477dd3"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C6",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Manufacturer Part": "CL10A106MP8NNNC",
+            "Supplier Part": "C85713",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CL10A106MP8NNNC",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "5731e1131f304450b457050d1cd350e8"
+          }
+        ],
+        [
+          "CH340N",
+          1,
+          "SOP-8_L5.0-W4.0-P1.27-LS6.0-BL",
+          "CH1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C506813",
+            "Manufacturer": "WCH(南京沁恒)",
+            "Manufacturer Part": "CH340N",
+            "Contributor": "sergeib06",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CH340N",
+            "puuid": "2436bf05661b4486b52c0ac0bbf7b52f",
+            "uuid": "f4d8e180987d481b8a97571048448f79"
+          }
+        ],
+        [
+          "1x4 LCD I2C",
+          1,
+          "1X4PIN",
+          "J1",
+          {
+            "Contributor": "LeecarL",
+            "spiceSymbolName": "1x4pin",
+            "Manufacturer Part": "",
+            "puuid": "446ce89483224e4395fc126e6beda0ce",
+            "uuid": "7d57fdf90d1240b48f1baac3828ebcc1"
+          }
+        ],
+        [
+          "10kΩ",
+          4,
+          "R0402",
+          "R1,R2,R3,R4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C226679",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "AC0402DR-0710KL",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AC0402DR-0710KL",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "21920ebb058343cba076c374cffdf3e4"
+          }
+        ],
+        [
+          "499Ω",
+          1,
+          "R0603",
+          "R5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C218049",
+            "Manufacturer": "Viking(光颉)",
+            "Manufacturer Part": "ARG03FTC4990",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARG03FTC4990",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "a358fb6afb9046acb759860026bccac9"
+          }
+        ],
+        [
+          "ESP12E",
+          1,
+          "ESP12E_ESP8266-ESP12E",
+          "SJR1",
+          {
+            "Contributor": "dalir54",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "ESP12E",
+            "Manufacturer Part": "",
+            "puuid": "04332396961a4db9b8631408d47df7dc",
+            "uuid": "cdee9e12a64d4cd8a18918262fbe094f"
+          }
+        ],
+        [
+          "GT-TC155A-H0060-L50",
+          4,
+          "SW-SMD_4P-G-SWITCH-GT-TC155A-H0060-L50",
+          "U1,U2,U3,U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5155556",
+            "Manufacturer": "G-Switch(品赞)",
+            "Manufacturer Part": "GT-TC155A-H0060-L50",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GT-TC155A-H0060-L50",
+            "puuid": "4ce1cf6d814640ad8faf0125dd64d0a0",
+            "uuid": "757042c450ed45ea925538607d68a281"
+          }
+        ],
+        [
+          "AMS1117-3.3V",
+          1,
+          "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688239",
+            "Manufacturer": "WPMtek(维攀微)",
+            "Manufacturer Part": "AMS1117-3.3V",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AMS1117-3.3V",
+            "puuid": "09952c2799c54b76904e264324ada8f3",
+            "uuid": "908ced202529416bac1203a9b300d842"
+          }
+        ],
+        [
+          "U-C-M5DD-Y-3",
+          1,
+          "MICRO-USB-SMD_MICRO-USB-A19",
+          "USB1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "U-C-M5DD-Y-3",
+            "Supplier Part": "C145797",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U-C-M5DD-Y-3",
+            "puuid": "9f46d72d29fc436ebf8c2fb84ae81bf1",
+            "uuid": "cb53934cbffc410196dc5aa9c22635f7"
+          }
+        ]
+      ],
+      "updateTime": 1703695505,
+      "createTime": 1703615691,
+      "histories": [],
+      "created_at": "2023-12-26 10:34:51",
+      "updated_at": "2023-12-27 08:45:05"
+    },
+    {
+      "uuid": "35a664826077c62409b4e737e46f4c0a",
+      "puuid": "eadcf7e790a4c51fd13707a54e6bfcb9",
+      "title": "PCB_ESP12F-exercise",
+      "filename": "PCB_ESP12F-exercise.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 4,
+        "04332396961a4db9b8631408d47df7dc": 1,
+        "09952c2799c54b76904e264324ada8f3": 1,
+        "2436bf05661b4486b52c0ac0bbf7b52f": 1,
+        "7bdec8012728462a85919a4d0d033579": 2,
+        "8d24de341288477b976dd29e869002d3": 1,
+        "446ce89483224e4395fc126e6beda0ce": 1,
+        "fafd024f554e426eb74cf4a204aa88b0": 4,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "4ce1cf6d814640ad8faf0125dd64d0a0": 4,
+        "9f46d72d29fc436ebf8c2fb84ae81bf1": 1
+      },
+      "BOM": [],
+      "updateTime": 1703696307,
+      "createTime": 1703683143,
+      "histories": [],
+      "created_at": "2023-12-27 05:19:03",
+      "updated_at": "2023-12-27 08:58:27"
+    }
+  ],
+  "sort": [],
+  "title": "ESP12F-exercise",
+  "foldername": "ESP12F-exercise",
+  "schfilename": "ESP12F-exercise.json",
+  "schfilemtime": 1703695505013
+}
